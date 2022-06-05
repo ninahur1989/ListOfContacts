@@ -4,8 +4,10 @@ namespace ListOfContacts
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Starter starter = new Starter();
+            starter.Start();
         }
     }
 }
